@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trip"
+    android:gravity="center_horizontal|bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginBottom="550dp"
+        android:textSize="40sp"
+        android:text="Lizandra Bucket list"/>
+
+    <Button
+        android:id="@+id/bucketBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="VIEW BUCKET LIST"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="ADD NEW BUCKET LIST ITEM"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
